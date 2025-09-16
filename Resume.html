@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>KLN Vinesh- Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body {
+            background-color: #f5f5f5;
+            color: #000000;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .resume-container {
+            max-width: 1000px;
+            margin: 0 auto;
+            background: white;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid green;
+        } 
+        h1 {
+            color: #3b4044;
+            margin-bottom: 5px;
+            font-size: 2.2rem;
+        }
+        h2 {
+            color: green;
+            margin: 20px 0 10px;
+            padding-bottom: 5px;
+            border-bottom: 1px solid #eee;
+            font-size: 1.5rem;
+        }
+        h3 {
+            color: #2c3e50;
+            margin: 15px 0 5px;
+            font-size: 1.2rem;
+        }
+        .job-title {
+            color: #7f8c8d;
+            font-size: 1.2em;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 10px;
+        }
+        .contact-info a {
+            color: green;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .contact-info a:hover {
+            color: #2c3e50;
+            text-decoration: underline;
+        }
+        section {
+            margin-bottom: 25px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 8px;
+            position: relative;
+        }
+        ul li:before {
+            content: "•";
+            color: green;
+            font-weight: bold;
+            display: inline-block;
+            width: 1em;
+            margin-left: -1em;
+        }
+        .skills-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .date {
+            color: #576061;
+            font-style: italic;
+            margin-bottom: 5px;
+        }
+        footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 2px solid green;
+            text-align: center;
+        }
+        @media (max-width: 600px) {
+            .resume-container {
+                padding: 20px;
+            }
+            .contact-info {
+                flex-direction: column;
+                gap: 5px;
+                align-items: center;
+            }
+            .skills-container {
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="resume-container">
+        <header>
+            <h1>KLN Vinesh</h1>
+            <p class="job-title">Full Stack Web Developer</p>
+            <div class="contact-info">
+                <a href="mailto:seasonchill8989@gmail.com">seasonchill8989@gmail.com</a>
+                <a href="tel:+919398948695">+91 9398948695</a>
+                <a href="https://www.linkedin.com/in/lakshmi-narasimha-vinesh-kurma-26b306272" target="_blank">LinkedIn</a>
+                <a href="https://github.com/Vineshcoder007" target="_blank">GitHub</a>
+            </div>
+        </header>
+        <section id="summary">
+            <h2>Professional Summary</h2>
+            <p>Passionate full stack developer with expertise in JavaScript-based technologies. Experienced in building responsive web applications with clean, maintainable code. Strong problem-solving skills and ability to work effectively in team environments. Enthusiastic about learning new technologies and contributing to impactful projects.</p>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <article>
+                <h3>SSE-10th</h3>
+                <p>Dr.KKR Gowtham School, Machilipatnam</p>
+                <p class="date">2020</p>
+                <h3>Intermediate</h3>
+                <p>Pavithra(Star) Junior College, Machilipatnam</p>
+                <p class="date">2021 - 2023</p>
+                <h3>Bachelor of Science in Artificial Intelligence and Machine Learning</h3>
+                <p>Sri Vasavi Institute Of Engineering & Technology, Nandamuru</p>
+                <p class="date">2023 - 2027</p>
+            </article>
+        </section>
+        <section id="experience">
+            <h2>Experience</h2>
+            <article>
+                <h3>Full Stack Developer (Personal & Academic Projects)</h3>
+                <p class="date">2025 - Present</p>
+                <ul>
+                    <li>Designed and developed responsive web applications</li>
+                    <li>Worked on project-based learning, collaborating with peers on innovative solutions</li>
+                    <li>Implemented responsive UI with HTML, CSS, and JavaScript</li>
+                </ul>
+            </article>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <div class="skills-container">
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>Node.js</li>
+                    <li>Python, Java</li>
+                    <li>Responsive Design</li>
+                    <li>Problem Solving & Debugging</li>
+                    <li>Team Collaboration & Communication</li>
+                </ul>
+            </div>
+        </section>
+        <section id="projects">
+            <h2>Projects</h2>
+            <article>
+                <h3>Personal Health Record Tracker</h3>
+                <p>A web-based application designed to help users securely store and manage their medical history, prescriptions, and doctor visits. It allows easy access to personal health records, enables tracking of medications and appointments, and ensures data privacy with authentication features.</p>
+            </article>
+        </section>
+        <section id="declaration">
+            <h2>Declaration</h2>
+            <p>I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.</p>
+        </section>
+        <footer>
+           <!-- <p><strong>Certifications:</strong>  ,  </p> -->
+            <p>&copy; 2025 KLN Vinesh. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
